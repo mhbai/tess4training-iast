@@ -1,0 +1,269 @@
+-----------------------------------------------------------------------------------------------------------------
+
+***** Extract LSTM model from best traineddata for IASTone. 
+
+Version string:IAST:best:shreeshrii:20200601:plusminus:from:Latin
+
+17:lstm:size=12009211, offset=192
+18:lstm-punc-dawg:size=4322, offset=12009403
+20:lstm-number-dawg:size=4618, offset=12013725
+21:lstm-unicharset:size=14489, offset=12018343
+22:lstm-recoder:size=1988, offset=12032832
+23:version:size=51, offset=12034820
+Extracting tessdata components from ../tessdata/best/IASTone.traineddata
+Wrote ../training/dict-iast-from-IASTone/IASTone.lstm
+Wrote ../training/dict-iast-from-IASTone/IASTone.lstm-punc-dawg
+Wrote ../training/dict-iast-from-IASTone/IASTone.lstm-number-dawg
+Wrote ../training/dict-iast-from-IASTone/IASTone.lstm-unicharset
+Wrote ../training/dict-iast-from-IASTone/IASTone.lstm-recoder
+Wrote ../training/dict-iast-from-IASTone/IASTone.version
+-----------------------------------------------------------------------------------------------------------------
+Loaded file ../training/dict-iast-from-IASTone/IASTone.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 189 to 163!
+Num (Extended) outputs,weights in Series:
+  1,48,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  Lfys64:64, 20736
+  Lfx96:96, 61824
+  Lrx96:96, 74112
+  Lfx512:512, 1247232
+  Fc163:163, 83619
+Total weights = 1487683
+Previous null char=188 mapped to 162
+Continuing from ../training/dict-iast-from-IASTone/IASTone.lstm
+Loaded 5816/5816 lines (1-5816) of document ../training/dictTRAIN-distort/iast.Trocchi.exp0.lstmf
+Loaded 38/38 lines (1-38) of document ../training/dictscanned/v02_004_1L.lstmf
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.RoundslabSerif_Medium.exp-3.lstmf
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Trocchi.exp0.lstmf
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Old_Standard_Indologique_Italic.exp-3.lstmf
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Old_Standard_Indologique.exp-1.lstmf
+Loaded 2363/2363 lines (1-2363) of document ../training/dictEVAL-distort/iast.Old_Standard_Indologique.exp0.lstmf
+Loaded 1750/1750 lines (1-1750) of document ../training/dictEVAL/iast.RoundslabSerif_Medium.exp0.lstmf
+Loaded 5855/5855 lines (1-5855) of document ../training/dictTRAIN/iast.FreeSerif_Italic.exp2.lstmf
+Loaded 5846/5846 lines (1-5846) of document ../training/dictTRAIN/iast.Libre_Baskerville.exp0.lstmf
+Loaded 5849/5849 lines (1-5849) of document ../training/dictTRAIN/iast.Libre_Baskerville_Italic.exp-3.lstmf
+Iteration 0: GROUND  TRUTH : Da Āryāvartta, 263-65 (k) F4H, Beijing for mendicants Lit. 4-3, 110
+File /tmp/iast-2020-06-05.M7A/iast.Trocchi.exp0.lstmf line 81 (Perfect):
+Mean rms=0.173%, delta=0%, train=0%(0%), skip ratio=0%
+Loaded 5851/5851 lines (1-5851) of document ../training/dictTRAIN/iast.TeX_Gyre_Schola_Italic.exp-3.lstmf
+Iteration 1: GROUND  TRUTH : cf. under [ hotṛ abhūmi Tatpur. f. (-miḥ) 1 Anything [ śītalavātaka
+File /tmp/iast-2020-06-05.sxK/iast.Libre_Baskerville.exp0.lstmf line 2823 (Perfect):
+Mean rms=0.118%, delta=0%, train=0%(0%), skip ratio=0%
+Loaded 5849/5849 lines (1-5849) of document ../training/dictTRAIN-distort/iast.Libre_Baskerville_Italic.exp0.lstmf
+Iteration 2: GROUND  TRUTH : 632 lesli 28 nibadhnanti sa ca .
+Iteration 2: BEST OCR TEXT : 632 lesli 28 nibadhnanti sa.ca .
+File /tmp/iast-2020-06-05.coO/iast.Trocchi.exp0.lstmf line 151 :
+Mean rms=0.367%, delta=0.417%, train=2.083%(9.524%), skip ratio=0%
+Loaded 5853/5853 lines (1-5853) of document ../training/dictTRAIN/iast.FreeSerif.exp-2.lstmf
+Iteration 3: GROUND  TRUTH : 282 mujaphpharanagaramaṇḍalam sphuṭaṃ Ujjihīte kiñcit Vīkṣaṇīyasthalāni sa
+File /tmp/iast-2020-06-05.coO/iast.Old_Standard_Indologique.exp-1.lstmf line 77 (Perfect):
+Mean rms=0.295%, delta=0.313%, train=1.563%(7.143%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Libre_Baskerville_Italic.exp-2.lstmf
+Iteration 4: GROUND  TRUTH : ] is a Chāt. Chātakāshṭaka (in two parts.) MD. 7764. -Indrāṇimantra
+File /tmp/iast-2020-06-05.sxK/iast.FreeSerif_Italic.exp2.lstmf line 1369 (Perfect):
+Mean rms=0.262%, delta=0.25%, train=1.25%(5.714%), skip ratio=0%
+Loaded 38/38 lines (1-38) of document ../training/dictscanned/v02_004_2R.lstmf
+Iteration 5: GROUND  TRUTH : -Durgāviśva(vā)pālanavidhāna.  See
+Iteration 5: BEST OCR TEXT : -Durgāviśva(vā)pālanavidhānu. 4£See
+File ../training/dictscanned/v02_004_1L.lstmf line 0 :
+Mean rms=0.456%, delta=1.034%, train=3.493%(21.429%), skip ratio=0%
+Loaded 5482/5482 lines (1-5482) of document ../training/dictTRAIN/iast.Island_Roman.exp-1.lstmf
+Iteration 6: GROUND  TRUTH : 834 / 1: ca gulphau padye vai
+Iteration 6: BEST OCR TEXT : 834 / 1. ca gulphau padye vai
+File /tmp/iast-2020-06-05.coO/iast.RoundslabSerif_Medium.exp-3.lstmf line 254 :
+Mean rms=0.588%, delta=1.441%, train=3.979%(20.408%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Island_Roman.exp-3.lstmf
+Iteration 7: GROUND  TRUTH : 300 .. Kartā 25 .. Utthitaṃ te rāsabho . Tu varśe Bhūyāsa{m+} naiva viṣṇū
+File /tmp/iast-2020-06-05.coO/iast.Old_Standard_Indologique_Italic.exp-3.lstmf line 1 (Perfect):
+Mean rms=0.529%, delta=1.261%, train=3.482%(17.857%), skip ratio=0%
+Loaded 5849/5849 lines (1-5849) of document ../training/dictTRAIN/iast.Libre_Baskerville_Italic.exp0.lstmf
+Iteration 8: GROUND  TRUTH : Tatpur. n. The linear measure called aṅgula.
+File /tmp/iast-2020-06-05.sxK/iast.Libre_Baskerville_Italic.exp-3.lstmf line 1042 (Perfect):
+Mean rms=0.476%, delta=1.121%, train=3.095%(15.873%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.RoundslabSerif_Medium.exp-2.lstmf
+Iteration 9: GROUND  TRUTH : in the 4) (p. 1) a‡kal anūnaka m. f. n. (-kaḥ-kā-kram) The same as the
+Iteration 9: BEST OCR TEXT : in the 4) (p. 1) aṭkal anūnaka m. f. n. (-kaḥ-kā-kram) The same as the
+File /tmp/iast-2020-06-05.sxK/iast.TeX_Gyre_Schola_Italic.exp-3.lstmf line 68 :
+Mean rms=0.503%, delta=1.117%, train=3.071%(14.952%), skip ratio=0%
+Loaded 5853/5853 lines (1-5853) of document ../training/dictTRAIN/iast.Old_Standard_Indologique.exp-2.lstmf
+Iteration 10: GROUND  TRUTH : OF PLAY, ENGAGING IN PASTIME, SPORTING ŚikhUp. yogaśikhā-upaniṣad kru(ru)
+File /tmp/iast-2020-06-05.M7A/iast.Libre_Baskerville_Italic.exp0.lstmf line 332 (Perfect):
+Mean rms=0.462%, delta=1.016%, train=2.792%(13.593%), skip ratio=0%
+Loaded 5855/5855 lines (1-5855) of document ../training/dictTRAIN/iast.FreeSerif_Italic.exp0.lstmf
+Iteration 11: GROUND  TRUTH : śatikaḥ. ṭyul(tana) a tad. ter. showing 'pertaining to'; as in divātana,
+File /tmp/iast-2020-06-05.sxK/iast.FreeSerif.exp-2.lstmf line 3688 (Perfect):
+Mean rms=0.429%, delta=0.931%, train=2.559%(12.46%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Libre_Baskerville.exp1.lstmf
+Iteration 12: GROUND  TRUTH : 480 Praśnasya 68 Sarva mūrkhasya 6 [rsabha] 1976 2013
+File /tmp/iast-2020-06-05.coO/iast.Libre_Baskerville_Italic.exp-2.lstmf line 326 (Perfect):
+Mean rms=0.398%, delta=0.859%, train=2.362%(11.502%), skip ratio=0%
+Loaded 5853/5853 lines (1-5853) of document ../training/dictTRAIN/iast.FreeSerif.exp1.lstmf
+Iteration 13: GROUND  TRUTH : -Baḍavānalabhairavamantra (ch. 64).
+Iteration 13: BEST OCR TEXT : -Badḍavānalabhairavamantra (oh. 64).
+File ../training/dictscanned/v02_004_2R.lstmf line 0 :
+Mean rms=0.465%, delta=0.994%, train=2.806%(15.442%), skip ratio=0%
+Loaded 40/40 lines (1-40) of document ../training/dictscanned/v02_003_2R.lstmf
+Iteration 14: GROUND  TRUTH : in ke 4 mat Lit. L. puts,
+File /tmp/iast-2020-06-05.sxK/iast.Island_Roman.exp-1.lstmf line 2730 (Perfect):
+Mean rms=0.437%, delta=0.928%, train=2.619%(14.413%), skip ratio=0%
+Loaded 5853/5853 lines (1-5853) of document ../training/dictTRAIN/iast.Old_Standard_Indologique.exp-3.lstmf
+Iteration 15: GROUND  TRUTH : - 53 bhinno tviha putro na .
+File /tmp/iast-2020-06-05.coO/iast.Island_Roman.exp-3.lstmf line 86 (Perfect):
+Mean rms=0.429%, delta=0.87%, train=2.455%(13.512%), skip ratio=0%
+Loaded 40/40 lines (1-40) of document ../training/dictscanned/v01_010-L.lstmf
+Iteration 16: GROUND  TRUTH : aff. of Ç1 KE HARĪ - MIRCA KE SĀTHA CAṬĀYĀ, PHIRA CAUDAHWĀ, G. CAUDM.
+File /tmp/iast-2020-06-05.sxK/iast.Libre_Baskerville_Italic.exp0.lstmf line 992 (Perfect):
+Mean rms=0.408%, delta=0.819%, train=2.311%(12.717%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Old_Standard_Indologique_Italic.exp0.lstmf
+Iteration 17: GROUND  TRUTH : 120 Vartate . 2.
+File /tmp/iast-2020-06-05.coO/iast.RoundslabSerif_Medium.exp-2.lstmf line 44 (Perfect):
+Mean rms=0.388%, delta=0.773%, train=2.182%(12.011%), skip ratio=0%
+Loaded 5846/5846 lines (1-5846) of document ../training/dictTRAIN/iast.Libre_Baskerville.exp2.lstmf
+Iteration 18: GROUND  TRUTH : Śāntideva, 94 Śarman, 16 ṇam, 173 'Giri', 42 (Vinayada)tta, 59 (chief
+File /tmp/iast-2020-06-05.sxK/iast.Old_Standard_Indologique.exp-2.lstmf line 5402 (Perfect):
+Mean rms=0.373%, delta=0.733%, train=2.067%(11.378%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Trocchi.exp2.lstmf
+Iteration 19: GROUND  TRUTH : (P. 2408) ANOINTING THE UPPER SIDE OF A DRUM CHURIKĀBHIḤ ṚCAM DĀRBHYAYOḤ
+File /tmp/iast-2020-06-05.sxK/iast.FreeSerif_Italic.exp0.lstmf line 3007 (Perfect):
+Mean rms=0.357%, delta=0.696%, train=1.964%(10.81%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Old_Standard_Indologique.exp-2.lstmf
+Iteration 20: GROUND  TRUTH : 567 Śubhe tasminhi - yajñairbodhā Dharmātmā hinvannṛtasya kuto u
+File /tmp/iast-2020-06-05.coO/iast.Libre_Baskerville.exp1.lstmf line 414 (Perfect):
+Mean rms=0.343%, delta=0.663%, train=1.871%(10.295%), skip ratio=0%
+Loaded 5850/5850 lines (1-5850) of document ../training/dictTRAIN-distort/iast.TeX_Gyre_Schola.exp0.lstmf
+Iteration 21: GROUND  TRUTH : ṬALYAMĀNĀNI SKANDAYAMĀNE KATTAVATĪM HAṂSARATHA UPAKARTṜḤ KṢIPAṆE BHAṬṬĀRE
+File /tmp/iast-2020-06-05.sxK/iast.FreeSerif.exp1.lstmf line 5 (Perfect):
+Mean rms=0.33%, delta=0.633%, train=1.786%(9.827%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.FreeSerif_Italic.exp0.lstmf
+Iteration 22: GROUND  TRUTH : 3
+Iteration 22: BEST OCR TEXT : '
+File ../training/dictscanned/v02_003_2R.lstmf line 0 :
+Mean rms=0.441%, delta=1.226%, train=10.404%(13.747%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.RoundslabSerif_Medium.exp2.lstmf
+Iteration 23: GROUND  TRUTH : ŚĪTAGANDHĀ ] F. MINUSOPS ELENGI LIT. L. E. OR SPOTTED ON NĪYUM MĀLĀVUM
+File /tmp/iast-2020-06-05.sxK/iast.Old_Standard_Indologique.exp-3.lstmf line 574 (Perfect):
+Mean rms=0.425%, delta=1.175%, train=9.97%(13.175%), skip ratio=0%
+Loaded 5851/5851 lines (1-5851) of document ../training/dictTRAIN/iast.TeX_Gyre_Schola_Italic.exp-2.lstmf
+Iteration 24: GROUND  TRUTH : -Sahityaprakaśa. Ptd. IO. Ptd. Bks.
+File ../training/dictscanned/v01_010-L.lstmf line 0 (Perfect):
+Mean rms=0.415%, delta=1.128%, train=9.571%(12.648%), skip ratio=0%
+Loaded 5482/5482 lines (1-5482) of document ../training/dictTRAIN/iast.Island_Roman.exp0.lstmf
+Iteration 25: GROUND  TRUTH : 842 Birlāmandiram .. Tu kiṃ marāṭhā Sṛṣṭā 28.. Yañi cakre . Mūlaṃ dyāṃ
+File /tmp/iast-2020-06-05.coO/iast.Old_Standard_Indologique_Italic.exp0.lstmf line 831 (Perfect):
+Mean rms=0.402%, delta=1.085%, train=9.203%(12.161%), skip ratio=0%
+Loaded 5853/5853 lines (1-5853) of document ../training/dictTRAIN/iast.Old_Standard_Indologique.exp-1.lstmf
+Iteration 26: GROUND  TRUTH : Literary category jaina literature Rāmaṣarman, 63 Vāstuv. Literary category
+File /tmp/iast-2020-06-05.sxK/iast.Libre_Baskerville.exp2.lstmf line 1347 (Perfect):
+Mean rms=0.389%, delta=1.045%, train=8.862%(11.711%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.FreeSerif.exp-1.lstmf
+Iteration 27: GROUND  TRUTH : 266 dharmādharmau atra tu vai
+File /tmp/iast-2020-06-05.coO/iast.Trocchi.exp2.lstmf line 226 :
+Mean rms=0.392%, delta=1.024%, train=8.546%(11.293%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN-distort/iast.FreeSerif.exp0.lstmf
+Iteration 28: GROUND  TRUTH : 855 Janasaṅkhyā bharatarṣabha . Goṣu rāmāyaṇe Manasi . Anabhre kasyacidapi
+File /tmp/iast-2020-06-05.coO/iast.Old_Standard_Indologique.exp-2.lstmf line 295 (Perfect):
+Mean rms=0.38%, delta=0.989%, train=8.251%(10.903%), skip ratio=0%
+Loaded 5816/5816 lines (1-5816) of document ../training/dictTRAIN/iast.Trocchi.exp2.lstmf
+Iteration 29: GROUND  TRUTH : Vṛindāvanasataka. Vṛishabhān. vṛṣabhānujā-nāṭikā, by mathurā-dāsa
+File /tmp/iast-2020-06-05.M7A/iast.TeX_Gyre_Schola.exp0.lstmf line 2555 (Perfect):
+Mean rms=0.369%, delta=0.956%, train=7.976%(10.54%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN-distort/iast.TeX_Gyre_Schola.exp0.lstmf
+Iteration 30: GROUND  TRUTH : 609 bāhlīkena 76 Svargasya . Hrasvo lekhana-samaye 18 Cakampire parantu
+File /tmp/iast-2020-06-05.coO/iast.FreeSerif_Italic.exp0.lstmf line 641 (Perfect):
+Mean rms=0.359%, delta=0.925%, train=7.719%(10.2%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.FreeSerif_Italic.exp1.lstmf
+Iteration 31: GROUND  TRUTH : 480 68 Sarva 6 [rsabha] 1976 2013
+Iteration 31: BEST OCR TEXT : 480 88 Sarva 8 [rsabha] 1978 2013
+File /tmp/iast-2020-06-05.coO/iast.RoundslabSerif_Medium.exp2.lstmf line 150 :
+Mean rms=0.408%, delta=1.109%, train=8.046%(11.22%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Old_Standard_Indologique.exp2.lstmf
+Iteration 32: GROUND  TRUTH : voiding excrement SHAPE AI. -2. ‡ % LABDHVĀ GĀVALA PHARAVARĪ SVAVAJREṆA.
+File /tmp/iast-2020-06-05.sxK/iast.TeX_Gyre_Schola_Italic.exp-2.lstmf line 1104 (Perfect):
+Mean rms=0.397%, delta=1.076%, train=7.802%(10.88%), skip ratio=0%
+Loaded 38/38 lines (1-38) of document ../training/dictscanned/v01_010-R.lstmf
+Iteration 33: GROUND  TRUTH : <iic. loc.>) 103 or Patanj. on With ava prefixed, [ ] f.
+Iteration 33: BEST OCR TEXT : <iic. loc.>) 103 or Patanj. on With ava prefixed, { } f.
+File /tmp/iast-2020-06-05.sxK/iast.Island_Roman.exp0.lstmf line 566 :
+Mean rms=0.419%, delta=1.109%, train=7.783%(11.05%), skip ratio=0%
+Loaded 5489/5489 lines (1-5489) of document ../training/dictTRAIN/iast.RoundslabSerif_Medium.exp2.lstmf
+Iteration 34: GROUND  TRUTH : and "K". aṅkola m. (-laḥ) A plant. See aṅkoṭa; PLUCK OUT. ? • 3815
+File /tmp/iast-2020-06-05.sxK/iast.Old_Standard_Indologique.exp-1.lstmf line 1940 (Perfect):
+Mean rms=0.409%, delta=1.078%, train=7.56%(10.735%), skip ratio=0%
+Loaded 5849/5849 lines (1-5849) of document ../training/dictTRAIN/iast.Libre_Baskerville_Italic.exp-1.lstmf
+Iteration 35: GROUND  TRUTH : 586 Varṣakoṭiṃ martyaloke parāṃ ūrdhvam KrI.Śa. Kimcit prahasanniva
+File /tmp/iast-2020-06-05.coO/iast.FreeSerif.exp-1.lstmf line 442 (Perfect):
+Mean rms=0.4%, delta=1.048%, train=7.35%(10.437%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN-distort/iast.Libre_Baskerville_Bold.exp0.lstmf
+Iteration 36: GROUND  TRUTH : 342 nārī śrūyante Punarmṛtyu' odanaṃ dīkṣaiva atra Udbhavati sṛṣṭau .
+File /tmp/iast-2020-06-05.NiO/iast.FreeSerif.exp0.lstmf line 176 (Perfect):
+Mean rms=0.392%, delta=1.019%, train=7.152%(10.154%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.FreeSerif.exp0.lstmf
+Iteration 37: GROUND  TRUTH : chU ch^e The anukūla- FATHERS • Pussy; YAHOO 00 ... Switzerland triangle
+Iteration 37: BEST OCR TEXT : chU ch^e The anukūla- FATHERS • Pussy; YAHOO oo ... Switzerland triangle
+File /tmp/iast-2020-06-05.sxK/iast.Trocchi.exp2.lstmf line 3005 :
+Mean rms=0.413%, delta=1.081%, train=7.114%(10.107%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN-distort/iast.TeX_Gyre_Schola_Bold_Italic.exp0.lstmf
+Iteration 38: GROUND  TRUTH : 770 Gregorī-kālagaṇanāyām . Iyaṃ Paścimaghaṭṭānāṃ hai . 59
+File /tmp/iast-2020-06-05.NiO/iast.TeX_Gyre_Schola.exp0.lstmf line 205 (Perfect):
+Mean rms=0.407%, delta=1.053%, train=6.931%(9.847%), skip ratio=0%
+Loaded 5483/5483 lines (1-5483) of document ../training/dictTRAIN-distort/iast.Island_Roman.exp0.lstmf
+Iteration 39: GROUND  TRUTH : 678 . Gṛhṇīyāt.. Hi . Piṅgalako saṅkhyā asminrājarṣivaṃśe 186 proktaṃ tarhi
+File /tmp/iast-2020-06-05.coO/iast.FreeSerif_Italic.exp1.lstmf line 558 (Perfect):
+Mean rms=0.399%, delta=1.027%, train=6.758%(9.601%), skip ratio=0%
+Loaded 5853/5853 lines (1-5853) of document ../training/dictTRAIN/iast.Old_Standard_Indologique_Italic.exp-1.lstmf
+Iteration 40: GROUND  TRUTH : - 76 paṭṭikāṃ 4. Drija! Putram adhrigu Kiñciddūraṃ rna khriṣṭābde veda Dadau
+File /tmp/iast-2020-06-05.coO/iast.Old_Standard_Indologique.exp2.lstmf line 2 (Perfect):
+Mean rms=0.391%, delta=1.001%, train=6.593%(9.367%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Island_Roman.exp0.lstmf
+Iteration 41: GROUND  TRUTH : -vallabhiya. PUL. II. App. p. 40.
+Iteration 41: BEST OCR TEXT : -vallabhīya. PUL. II. App. p. 40.
+File ../training/dictscanned/v01_010-R.lstmf line 0 :
+Mean rms=0.409%, delta=1.034%, train=6.58%(9.541%), skip ratio=0%
+Loaded 5850/5850 lines (1-5850) of document ../training/dictTRAIN/iast.TeX_Gyre_Schola.exp-2.lstmf
+Iteration 42: GROUND  TRUTH : (K.2) ONTI A Lit. view. BORI.
+File /tmp/iast-2020-06-05.sxK/iast.RoundslabSerif_Medium.exp2.lstmf line 1987 (Perfect):
+Mean rms=0.414%, delta=1.01%, train=6.427%(9.319%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.Island_Roman.exp-1.lstmf
+Iteration 43: GROUND  TRUTH : ] f. the state of a hog, Lit. Śiś. xiv, 86. Patañjali, Mahābhāṣya, 10,
+File /tmp/iast-2020-06-05.sxK/iast.Libre_Baskerville_Italic.exp-1.lstmf line 119 (Perfect):
+Mean rms=0.407%, delta=0.987%, train=6.281%(9.107%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.FreeSerif_Italic.exp-1.lstmf
+Iteration 44: GROUND  TRUTH : 791 Vācyārthaniṣpattirbodhyā yogī Śatrughno - mahat . vegena
+File /tmp/iast-2020-06-05.NiO/iast.Libre_Baskerville_Bold.exp0.lstmf line 790 (Perfect):
+Mean rms=0.399%, delta=0.965%, train=6.142%(8.905%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.TeX_Gyre_Schola_Italic.exp1.lstmf
+Iteration 45: GROUND  TRUTH : 208 Nirjhare vande 23: svarūpaṃ tato . Bhīṣmeṇa varjjanīya ~ bhūmau
+File /tmp/iast-2020-06-05.coO/iast.FreeSerif.exp0.lstmf line 207 (Perfect):
+Mean rms=0.392%, delta=0.944%, train=6.008%(8.711%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.TeX_Gyre_Schola.exp-1.lstmf
+Iteration 46: GROUND  TRUTH : 478 Svāgatam ., deśe Putrajīvaphalairhunet 1: abhipraiti Nagarīṃ hiṅkaroti
+File /tmp/iast-2020-06-05.NiO/iast.TeX_Gyre_Schola_Bold_Italic.exp0.lstmf line 274 (Perfect):
+Mean rms=0.385%, delta=0.924%, train=5.88%(8.526%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN-distort/iast.FreeSerif_Italic.exp0.lstmf
+Iteration 47: GROUND  TRUTH : dictionary of medical terms by Suffix, 7 80
+File /tmp/iast-2020-06-05.M7A/iast.Island_Roman.exp0.lstmf line 95 (Perfect):
+Mean rms=0.378%, delta=0.905%, train=5.758%(8.348%), skip ratio=0%
+Loaded 5851/5851 lines (1-5851) of document ../training/dictTRAIN/iast.TeX_Gyre_Schola_Italic.exp-1.lstmf
+Iteration 48: GROUND  TRUTH : BhP. caṅkam toṭaṅkuvataip paṟṟit tāttāviṭam khañjaka mfn.
+File /tmp/iast-2020-06-05.sxK/iast.Old_Standard_Indologique_Italic.exp-1.lstmf line 142 (Perfect):
+Mean rms=0.373%, delta=0.887%, train=5.64%(8.178%), skip ratio=0%
+Loaded 5816/5816 lines (1-5816) of document ../training/dictTRAIN/iast.Trocchi.exp1.lstmf
+Iteration 49: GROUND  TRUTH : 150 / 59 ..
+Iteration 49: BEST OCR TEXT : 2150 / 59 .
+File /tmp/iast-2020-06-05.coO/iast.Island_Roman.exp0.lstmf line 149 :
+Mean rms=0.391%, delta=0.92%, train=5.891%(9.014%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN-distort/iast.Old_Standard_Indologique.exp0.lstmf
+Iteration 50: GROUND  TRUTH : AGNIPRAṆAYANA. MṚDAṄA-ḌHOLAKA KĪ THĀPA PARA AZALA Kumāragupta II,
+File /tmp/iast-2020-06-05.sxK/iast.TeX_Gyre_Schola.exp-2.lstmf line 353 (Perfect):
+Mean rms=0.385%, delta=0.902%, train=5.776%(8.838%), skip ratio=0%
+Loaded 42/42 lines (1-42) of document ../training/dictscanned/v01_003_2R.lstmf
+Iteration 51: GROUND  TRUTH : 489 eva . Tasyaiva Sargo
+File /tmp/iast-2020-06-05.coO/iast.Island_Roman.exp-1.lstmf line 488 (Perfect):
+Mean rms=0.378%, delta=0.885%, train=5.665%(8.668%), skip ratio=0%
+Loaded 910/910 lines (1-910) of document ../training/saniastTRAIN/iast.FreeSerif_Italic.exp-3.lstmf

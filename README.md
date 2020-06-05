@@ -33,20 +33,20 @@ Since this traineddata is meant to recognize Sanskrit-English dictionary with so
 
 Fonts for training were selected to be similar to the scanned pages to be recognized. Training box/tif pairs were created for `exposure levels, -3, -2, -1, 0, 1 and 2`. Additional box/tif pairs were created for exposure level 0 with the `distort-image` flag.
 
-"FreeSerif Italic" 
-"FreeSerif" 
-"Island Roman," 
-"Libre Baskerville" 
-"Libre Baskerville Bold" 
-"Libre Baskerville Italic" 
-"Old Standard Indologique" 
-"Old Standard Indologique Italic" 
-"RoundslabSerif Medium" 
-"TeX Gyre Schola" 
-"TeX Gyre Schola Bold" 
-"TeX Gyre Schola Bold Italic" 
-"TeX Gyre Schola Italic" 
-"Trocchi" 
+* "FreeSerif Italic" 
+* "FreeSerif" 
+* "Island Roman," 
+* "Libre Baskerville" 
+* "Libre Baskerville Bold" 
+* "Libre Baskerville Italic" 
+* "Old Standard Indologique" 
+* "Old Standard Indologique Italic" 
+* "RoundslabSerif Medium" 
+* "TeX Gyre Schola" 
+* "TeX Gyre Schola Bold" 
+* "TeX Gyre Schola Bold Italic" 
+* "TeX Gyre Schola Italic" 
+* "Trocchi" 
 
 ## Scanned Pages
 
@@ -55,5 +55,5 @@ A few scanned pages and their groundtruth was used to create wordstrbox files an
 ## Training Steps
 
 1. Put the scanned pages and their ground truth (*.tif and *.gt.txt) in `test` directory. Run `bash makescanned.sh`.
-2. Put the training text for use with fonts in `langdata/iast` directory. Name as xxxTRAIN.training_text to use for training and as xxxEVAL.training_text to use for model evaluation. 
+2. Put the training text for use with fonts in `langdata/iast` directory. Name as xxxTRAIN.training_text to use for training and as xxxEVAL.training_text to use for model evaluation. Run `bash makedata.sh xxxTRAIN` or  `bash makedata.sh xxxEVAL`. 
 3. 
