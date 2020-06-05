@@ -2,8 +2,9 @@
 cd ./tesseract
 
 LANG=iast
-## dictEVAL saniastTRAIN dictTRAIN
-for PREFIX in  dictTRAIN  ; do
+
+## dictEVAL  dictTRAIN  saniastTRAIN
+for PREFIX in  $1  ; do
 
 echo -e "$PREFIX -----------------------------------------------------------------------------------------------------------------"
 

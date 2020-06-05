@@ -31,7 +31,7 @@ Since this traineddata is meant to recognize Sanskrit-English dictionary with so
 
 ## Fonts Used
 
-Fonts for training were selected to be similar to the scanned pages to be recognized. Training box/tif pairs were created for exposure levels, -3, -2, -1, 0, 1 and 2. Additional box/tif pairs were created for exposure level 0 with the `distort-image` flag.
+Fonts for training were selected to be similar to the scanned pages to be recognized. Training box/tif pairs were created for `exposure levels, -3, -2, -1, 0, 1 and 2`. Additional box/tif pairs were created for exposure level 0 with the `distort-image` flag.
 
 "FreeSerif Italic" 
 "FreeSerif" 
@@ -52,3 +52,8 @@ Fonts for training were selected to be similar to the scanned pages to be recogn
 
 A few scanned pages and their groundtruth was used to create wordstrbox files and these box/tiff pairs were also used for training and for further finetuning.
 
+## Training Steps
+
+1. Put the scanned pages and their ground truth (*.tif and *.gt.txt) in `test` directory. Run `bash makescanned.sh`.
+2. Put the training text for use with fonts in `langdata/iast` directory. Name as xxxTRAIN.training_text to use for training and as xxxEVAL.training_text to use for model evaluation. 
+3. 
